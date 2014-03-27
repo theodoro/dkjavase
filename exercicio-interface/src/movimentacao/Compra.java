@@ -19,7 +19,7 @@ public class Compra implements Autorizavel{
     public String produto;
 
     @Override
-    public double valorTotal() {     
+    public double valorTotal() {         
         return this.valorTotal;
     }
     
