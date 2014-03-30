@@ -1,0 +1,11 @@
+package entidade;
+
+public class Galinha {
+	
+	public int ovo; // representa o total de ovos do obj galinha;
+	
+	public void botar(){
+		this.ovo ++;
+	}
+
+}

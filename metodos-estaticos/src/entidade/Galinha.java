@@ -1,0 +1,19 @@
+package entidade;
+
+public class Galinha {
+	
+	public static int ovosDaGranja; // Pertence a classe e não objeto, não se usa this
+	
+	public int ovo; // representa o total de ovos do obj galinha;
+	
+	public Galinha botar(){
+		this.ovo++;
+		Galinha.ovosDaGranja++;
+		return this;
+	}
+	
+	public static double getMediaOvos(int quantidade){
+		return Galinha.ovosDaGranja / quantidade;
+	}
+
+}
