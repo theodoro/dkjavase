@@ -1,0 +1,14 @@
+package entidade;
+
+public class Matematica {
+	
+	/*
+	 * Métodos sobrecarregados, tem o mesmo nome, mas com assinaturas diferentes;
+	 */
+	
+	public double getMedia(double n, double n2){
+		
+		return (n + n2) / 2;
+	}
+
+}
