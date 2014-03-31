@@ -1,0 +1,13 @@
+package start;
+
+import entidade.Pecas;
+
+public class Start {
+	
+	public static void main(String[] args){
+		
+		System.out.println(Pecas.REI);
+		
+	}
+
+}
